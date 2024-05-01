@@ -37,7 +37,7 @@ $ cd
 
 - Faça uma conta na <a href="https://stripe.com/br" target="_blank">Stripe</a> e crie uma chave de API para desenvolvedor
 
-- Crie um arquivo ```.env``` seguindo a estrutura do arquivo ```.env.example```
+- Crie um arquivo ```.env.local``` seguindo a estrutura do arquivo ```.env.example```
 
 - Siga os passos abaixo:
 ```bash
