@@ -1,40 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img height="60" src="./src/assets/logo.svg"  />
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+![image](https://github.com/luc-ribeiro/ignite-shop-next/assets/69688077/c90beb44-4e97-4dd6-b7a1-363b87d8acc1)
+
+![image](https://github.com/luc-ribeiro/ignite-shop-next/assets/69688077/b142dd7e-70f9-467a-8181-53f581c987d1)
+
+![image](https://github.com/luc-ribeiro/ignite-shop-next/assets/69688077/32a652cd-36e6-4f51-adfa-044c67339050)
+
+
+
+## 📄 Projeto
+Projeto de interface de _e-commerce_ de camisetas utilizando **Next.js** para aplicação de conceitos de **single page application (SPA), server-side rendering (SSR), static-site generation (SSG) e Stripe para pagamentos.**
+
+## 💻 Tecnologias
+
+- **Next.js**
+- **TypeScript**
+- **Stitches**
+- **Stripe**
+- **Keen Slider**
+
+## 🔖 Layout
+- [Ignite Shop - Figma](https://www.figma.com/file/FVmczQLLga39DCEe4KoMNt/Ignite-Shop-%E2%80%A2-Projeto-React?type=design&node-id=2-12&mode=design)
+
+## 🚀 Executando o projeto
+
+- Clone o projeto e acesse o diretório
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ git clone https://github.com/luc-ribeiro/ignite-shop-next.git
+$ cd 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Faça uma conta na <a href="https://stripe.com/br" target="_blank">Stripe</a> e crie uma chave de API para desenvolvedor
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Crie um arquivo ```.env``` seguindo a estrutura do arquivo ```.env.example```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Siga os passos abaixo:
+```bash
+# Instale as dependências
+$ npm i
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Inicie o projeto
+$ npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- A aplicação estará disponível no endereço `http://localhost:3000`
