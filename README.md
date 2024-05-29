@@ -1,6 +1,14 @@
 <div align="center">
-  <img height="60" src="./src/assets/logo.svg"  />
+  <img height="60" src="./src/assets/logo.svg" />
 </div>
+
+<br>
+
+<div align="right">
+  Clique <a href="https://github.com/luc-ribeiro/ignite-shop-next/blob/main/README-PTBR.md">aqui</a> para ver a versão em Português.
+</div>
+
+<br>
 
 ---
 
@@ -10,12 +18,11 @@
 
 ![image](https://github.com/luc-ribeiro/ignite-shop-next/assets/69688077/32a652cd-36e6-4f51-adfa-044c67339050)
 
+## 📄 Project
 
+An e-commerce interface project for t-shirts using **Next.js** to apply concepts of **single page application (SPA)**, **server-side rendering (SSR)**, **static-site generation (SSG)**, and **Stripe** for payments.
 
-## 📄 Projeto
-Projeto de interface de _e-commerce_ de camisetas utilizando **Next.js** para aplicação de conceitos de **single page application (SPA), server-side rendering (SSR), static-site generation (SSG) e Stripe para pagamentos.**
-
-## 💻 Tecnologias
+## 💻 Technologies
 
 - **Next.js**
 - **TypeScript**
@@ -24,28 +31,30 @@ Projeto de interface de _e-commerce_ de camisetas utilizando **Next.js** para ap
 - **Keen Slider**
 
 ## 🔖 Layout
+
 - [Ignite Shop - Figma](https://www.figma.com/file/FVmczQLLga39DCEe4KoMNt/Ignite-Shop-%E2%80%A2-Projeto-React?type=design&node-id=2-12&mode=design)
 
-## 🚀 Executando o projeto
+## 🚀 Running the project
 
-- Clone o projeto e acesse o diretório
+- Clone the project and access the directory
 
 ```bash
 $ git clone https://github.com/luc-ribeiro/ignite-shop-next.git
-$ cd 
+$ cd ignite-shop-next
 ```
 
-- Faça uma conta na <a href="https://stripe.com/br" target="_blank">Stripe</a> e crie uma chave de API para desenvolvedor
+- Create an account on <a href="https://stripe.com/br" target="_blank">Stripe</a> and generate a developer API key
 
-- Crie um arquivo ```.env.local``` seguindo a estrutura do arquivo ```.env.example```
+- Create a `.env.local` file following the structure of the `.env.example` file
 
-- Siga os passos abaixo:
+- Follow the steps below:
+
 ```bash
-# Instale as dependências
+# Install dependencies
 $ npm i
 
-# Inicie o projeto
+# Start the project
 $ npm run dev
 ```
 
-- A aplicação estará disponível no endereço `http://localhost:3000`
+- The application will be available at `http://localhost:3000`
